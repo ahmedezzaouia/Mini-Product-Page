@@ -1,63 +1,93 @@
-*{
-    margin: 0;
+* {
+  margin: 0;
 }
 
-.container{
-    background-color: cornsilk;
-    height: 100vh;
-    width: 100vw;
+.container {
+  background-color: cornsilk;
+  height: 100vh;
+  width: 100vw;
+}
+.image {
+  height: 40%;
+  width: 50%;
+}
+.image img {
+  height: 100%;
+  width: 100%;
+}
 
-}
-.image{
-    height: 40%;
-    width: 50%;
-}
-.image img{
-    height: 100%;
-    width: 100%;
-}
-
-.mini-product{
-    display: flex;
-    flex-direction: row;
-    height: 40%;
-    width: 50%;
-    /* top: 0;
+.mini-product {
+  display: flex;
+  flex-direction: row;
+  height: 40%;
+  width: 50%;
+  /* top: 0;
     bottom: 0;
     margin: auto;
     position: absolute;
     left: 0;
     right: 0; */
-
 }
 
-.mini-product .media{
-    height: 100%;
-    width: 100%;
-    background-color: blueviolet;
+.mini-product .media {
+  height: 100%;
+  width: 100%;
 }
 
-.mini-product .text_box{
-    height: 100%;
-    width: 70%;
-    background-color: cadetblue;
+.mini-product .text_box {
+  height: 100%;
+  width: 70%;
+  background-color: white;
 }
 
-.mini-product .option{
-
-    display: flex;
-    flex-direction: row;
+.mini-product .option {
+  display: flex;
+  flex-direction: row;
 }
 
-.color-item{
-    height: 30px;
-    width: 30px;
-    border-radius: 100px;
+.color-item {
+  height: 30px;
+  width: 30px;
+  border-radius: 100px;
+  margin: 4px;
+  border: 1px solid whitesmoke;
+  display: flex;
+}
+.color-item i {
+  color: aliceblue;
+  margin: auto;
+}
+
+.mini-product .size-item{
+
+    border: 1.4px solid #00000052;
+    padding: 7px 25px;
+    font-size: medium;
+    border-radius: 5px;
     margin: 4px;
-    border: 1px solid whitesmoke;
-    display: flex;
 }
-.color-item i{
-color: aliceblue;
-margin: auto;
+
+.divider{
+    border-top: 1px solid #bbb;
+}
+
+.mini-product .payment{
+    display: flex;
+    align-items: center;
+}
+.add_to_cart{
+    background-color: #7dc855;
+    padding: 8px 21px;
+    color: white;
+    font-weight: 530;
+    border-radius: 5px;
+}
+.payment span{
+    font-weight:600;
+    margin: 10px;
+}
+.mini-product .media img{
+    
+width: 100%;
+height: 100%;
 }
